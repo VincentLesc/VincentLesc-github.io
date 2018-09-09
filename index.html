@@ -10,18 +10,18 @@
 
         <!-- Bootstrap core CSS -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     </head>
 
-    <body>
+    <body class="backlight">
 
         <!-- Navbar -->
 
         <header id="top">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                <a class="navbar-brand" href="#top">Find The Precious</a>
+            <nav class="navbar navbar-expand-lg navbar-dark backorange fixed-top">
+                <a class="navbar-brand " href="#top"><img src="img/logo.png" alt="logo find the precious" class="img-fluid" id="logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -42,29 +42,29 @@
 
         <main>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
+                <ol class="carousel-indicators d-none">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="img/Thering.jpg" alt="First slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Find the ring !</h5>
-                            <p>Help us !</p>
+                        <img class="d-block w-100" src="img/dark_vador.jpg" alt="dark_vador">
+                        <div class="carousel-caption">
+                            <h5>Sauron is a very good bro !</h5>
+                            <p>Please help him to find the ring      -d.v.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="img/theorc.jpg" alt="Second slide">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                             <h5>Funny war !</h5>
                             <p>Help us !</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="img/theteam.jpg" alt="Third slide">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img class="d-block w-100" src="img/Thering.jpg" alt="Third slide">
+                        <div class="carousel-caption">
                             <h5>All together !</h5>
                             <p>Help us !</p>
                         </div>
@@ -82,26 +82,26 @@
 
             <!-- Fellows Section -->
 
-            <section id="Fellows" class="container-fluid">
-                <h2 class="m-2">Fellows wanted dead <span>(or alive if you want to eat them later)</span></h2>
-                <ul class="nav nav-pills justify-content-around m-2" id="pills-tab" role="tablist">
+            <section id="Fellows" class="container-fluid backlight m-0">
+                <h2 class="m-5"><span class="teng">ij</span> Fellows wanted dead <span>(or alive if you want to eat them later) </span><span class="teng">ij</span></h2>
+                <ul class="nav nav-pills justify-content-center m-4" id="pills-tab" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" id="pills-wanted-tab" data-toggle="pill" href="#pills-wanted" role="tab" aria-controls="pills-tab" aria-expanded="true">Most wanted</a>
+                        <a class="nav-link active" id="pills-wanted-tab" data-toggle="pill" href="#pills-wanted" role="tab" aria-controls="pills-tab" aria-expanded="true"><span class="teng">b </span> Most wanted <span class="teng"> b</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="pills-dangerous-tab" data-toggle="pill" href="#pills-dangerous" role="tab" aria-controls="pills-tab" aria-expanded="true">Most dangerous</a>
+                        <a class="nav-link" id="pills-dangerous-tab" data-toggle="pill" href="#pills-dangerous" role="tab" aria-controls="pills-tab" aria-expanded="true"><span class="teng">b </span> Most dangerous <span class="teng"> b</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="pills-captured-tab" data-toggle="pill" href="#pills-captured" role="tab" aria-controls="pills-tab" aria-expanded="true">Already captured</a>
+                        <a class="nav-link" id="pills-captured-tab" data-toggle="pill" href="#pills-captured" role="tab" aria-controls="pills-tab" aria-expanded="true"><span class="teng">b </span> Already captured <span class="teng"> b</span></a>
                     </li>
                 </ul>
                 <div class="row justify-content-center">
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-3">
                         <div class="card">
-                            <img class="card-img-top" src="http://images.innoveduc.fr/integration_gandalf.png" alt="Gandalf">
+                            <img class="card-img-top" src="img/gandalf.png" alt="Gandalf portrait">
                             <div class="card-img-overlay justify-content-center p-0">
                                 <div class="grayback">
-                                    <p class="card-text box-overimg">reward <span class="gold">1000</span> golden coins</p>
+                                    <p class="card-text box-overimg">reward <br/><span class="gold">1000</span> golden coins</p>
                                     <h4 class="card-title name">Gandalf</h4>
                                 </div>
                             </div>
@@ -110,13 +110,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-3">
                         <div class="card">
-                            <img class="card-img-top" src="img/maxres.jpg" alt="Hobbit3">
+                            <img class="card-img-top" src="img/aragorn.png" alt="aragorn portrait">
                             <div class="card-img-overlay justify-content-center p-0">
                                 <div class="grayback">
-                                    <p class="card-text box-overimg ">Already DEAD</p>
-                                    <h4 class="card-title name"># Hobbit 3</h4>
+                                    <p class="card-text box-overimg dead ">DEAD</span></p>
+                                    <h4 class="card-title name" style="text-decoration: line-through"># Hobbit 3</h4>
                                 </div>
                             </div>
                             <div class="card-body">
@@ -124,12 +124,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-3">
                         <div class="card">
-                            <img class="card-img-top" src="img/LordFarquaad.jpg" alt="Yummy">
+                            <img class="card-img-top" src="img/gimli.png" alt="gimli portait">
                             <div class="card-img-overlay justify-content-center p-0">
                                 <div class="grayback">
-                                    <p class="card-text box-overimg">reward <span class="gold">250</span> golden coins</p>
+                                    <p class="card-text box-overimg">reward<br/><span class="gold">800</span> golden coins</p>
                                     <h4 class="card-title name">Yummy Dwaf</h4>
                                 </div>
                             </div>
@@ -144,25 +144,25 @@
 
             <!--Reward Section-->
 
-            <section id="Reward" class="container-fluid">
-                <h2 class="m-2">I have captured one of them, how to get my reward ?</h2>
+            <section id="Reward" class="container-fluid backdark">
+                <h2 class="m-2"><span class="teng">ij</span> I have captured one of them, how to get my reward ? <span class="teng">ij</span></h2>
                 <div class="row">
                     <div class="offset-1 col-10 col-md-7 m-auto">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
                         <a href="" class="offset-3 col-6 btn btn-primary">Contact us</a>
                     </div>
-                    <img src="http://via.placeholder.com/140x140" alt="Picture" class="offset-1 col-10 col-md-3 h-100">
+                    <img src="img/coin_sauron.png" alt="coin" class="offset-1 col-10 col-md-2 h-100 m-auto">
                 </div>
             </section>
             <hr>
 
             <!--best hunters-->
-            <section id="Besthunters" class="container-fluid">
-                <h2>Best Hunters</h2>
+            <section id="Besthunters" class="container-fluid backlight">
+                <h2><span class="teng">ij</span> Our best hunters <span class="teng">ij</span></h2>
                 <div class="row justify-content-around">
                     <div class="col-10 col-md-4">
                         <div class="row media justify-content-between">
-                            <img src="https://via.placeholder.com/70x70" alt="" class="col-3">
+                            <img src="img/hunter1.png" alt="hunter1 portrait" class="col-3">
                             <div class="col-8 media-body">
                             <h4>ElvesKiller22</h4>
                             <p>2 captures</p>
@@ -173,7 +173,7 @@
                     </div>
                     <div class="col-10 col-md-4">
                         <div class="row media justify-content-between">
-                            <img src="https://via.placeholder.com/70x70" alt="" class="col-3">
+                            <img src="img/hunter2.png" alt="hunter2 portrait" class="col-3">
                             <div class="col-8 media-body">
                             <h4>Goblin</h4>
                             <p>1 capture</p>
@@ -188,12 +188,12 @@
 
             <!--about the ring-->
 
-            <section id="Aboutthering" class="container-fluid">
-                <h2>About the ring</h2>
-                <article class="card m-2">
+            <section id="Aboutthering" class="container-fluid backdark">
+                <h2><span class="teng">ij</span> About the ring <span class="teng">ij</span></h2>
+                <article class="card m-2 backorange">
                     <h4 class="card-header">Ring capabilities</h4>
-                    <h6>What can our master Sauron do with the ring ?</h6>
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center m-2 backlight">
+                        <h6>What can master Sauron do with the ring ?</h6>
                         <table class="table table-bordered col-10">
                             <thead>
                             <tr>
@@ -216,10 +216,10 @@
                         </table>
                     </div>
                 </article>
-                <article class="card align-content-center m-2">
+                <article class="card align-content-center m-2 backorange">
                     <h4 class="card-header">Why the ring is awesome ?</h4>
-                    <div class="row justify-content-around m-2">
-                        <img src="http://via.placeholder.com/110x110" alt="Picture" class="col-10 col-md-3 rounded-circle h-100"/>
+                    <div class="row justify-content-around m-2 backlight">
+                        <img src="img/gollum.png" alt="gollum portrait" class="col-10 col-md-3 rounded-circle h-100"/>
                         <p class="col-10 col-md-7 m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </article>
@@ -228,10 +228,10 @@
 
             <!--Join the arny-->
 
-            <section id="Jointhearmy" class="container-fluid">
-                <h2>Join Mordor Army, we need you !</h2>
+            <section id="Jointhearmy" class="container-fluid backlight">
+                <h2><span class="teng">ij</span> Join Mordor Army, we need you ! <span class="teng">ij</span></h2>
                 <div class="row justify-content-around align-content-center">
-                    <img src="http://via.placeholder.com/140x140" alt="Picture" class="col-10 col-md-3 img-fluid h-100 ml-4"/>
+                    <img src="img/army.png" alt="army draw" class="col-10 col-md-3 img-fluid h-100 ml-4"/>
                     <div class="col-10 col-md-8 m-auto">
                         <div class="row justify-content-center">
                         <p class="col-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.</p>
@@ -243,40 +243,45 @@
             <hr>
 
             <!--contact-->
-            <section id="Contactus" class="container-fluid">
-                <h2>Contact us</h2>
+            <section id="Contactus" class="container-fluid backdark">
+                <h2><span class="teng">ij</span> Contact us <span class="teng">ij</span></h2>
                 <div class="row justify-content-around">
-                    <form method="post" action="https://www.findtheprecious.com/contactus" class="col-10">
-                        <div class="input-group mb-2">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text"><i class="material-icons">
-                                    alternate_email
-                                    </i></div>
-                        </div>
-                        <input type="text" class="form-control" placeholder="Username">
-                        </div>
-                        <div class="input-group mb-2">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text"><i class="material-icons">
-                                    home
-                                    </i></div>
-                        </div>
-                        <input type="text" class="form-control" placeholder="Username">
-                        </div>
-                        <select name="subject" id="subject" class="form-control">
-                            <option value="seen">I have seen one of them</option>
-                            <option value="captured">I have captured one of them</option>
-                            <option value="join">I want to join your army</option>
-                        </select>
-                        <br/>
-                        <textarea name="message" id="message" class="form-control"></textarea><br/>
-                        <input type="submit" value="Submit" class="btn btn-primary w-100"/> 
-                    </form>
+                    <div class="col-md-6 col-10">
+                        <form method="post" action="https://www.findtheprecious.com/contactus" class="col-10">
+                            <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="material-icons">
+                                        alternate_email
+                                        </i></div>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Username">
+                            </div>
+                            <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="material-icons">
+                                        home
+                                        </i></div>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Username">
+                            </div>
+                            <select name="subject" id="subject" class="form-control">
+                                <option value="seen">I have seen one of them</option>
+                                <option value="captured">I have captured one of them</option>
+                                <option value="join">I want to join your army</option>
+                            </select>
+                            <br/>
+                            <textarea name="message" id="message" class="form-control"></textarea><br/>
+                            <input type="submit" value="Submit" class="btn btn-primary w-100"/> 
+                        </form>
+                    </div>
+                    <div class="col-md-6 col-10">
+                        <img src="img/map.png" alt="map" class="img-fluid">
+                    </div>
                 </div>
             </section>
             <hr>
         </main>
-        <footer class="container-fluid justify-content-around">
+        <footer class="container-fluid justify-content-around backorange">
             <div class="row">
                 <ul class="offset-1 col-10 col-md-5">
                     <li><a href="https://www.findtheprecious.com/about">About us</a></li>

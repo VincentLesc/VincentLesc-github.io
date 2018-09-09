@@ -1,0 +1,184 @@
+/* fonts*/
+
+@font-face{
+    font-family: "Aniron";
+    font-style: normal;
+    src: url("../fonts/anirm___.ttf");
+}
+
+@font-face{
+    font-family: "Party Business";
+    font-style: normal;
+    src: url("../fonts/partybusiness.ttf");
+}
+
+@font-face{
+    font-family: "Tengwar";
+    font-style: italic;
+    src: url("../fonts/tngani.ttf");
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Aniron";  
+    font-size: 2rem;
+}
+
+body{
+    font-family: "Party Business";
+    font-size: 1rem;
+}
+
+.teng{
+    font-family: "Tengwar";
+    font-style: italic;
+    color: orangered;
+}
+
+
+/* background */
+
+.backdark{
+    background-image: url("../img/bg_dark.png");
+    color: white;
+}
+
+.backlight{
+    background-image: url("../img/bg_light.png");
+    color: black;
+}
+
+.backorange{
+    background-color: orangered;
+}
+
+/* hr */
+
+hr{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: none;
+    border-bottom: 4px solid orangered;
+    width: 50%;
+}
+
+/* Navbar */
+
+main{
+    margin-top: 55px;
+    font-family: "Party Business";
+}
+
+.navbar{
+    font-family: "Aniron";
+}
+
+.nav-pills .nav-item{
+    font-size: 2rem;
+}
+/* carrousel */
+
+.carousel-caption{
+    display:flex;
+    flex-direction: column;
+    top: 25%;
+    bottom: 25%;
+    justify-content: center;
+}
+
+.carousel-caption h5 {
+    font-size: 3rem;
+}
+.carousel-caption p {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 600px){
+    .carousel-caption h5{
+        font-size: 1rem;
+    }
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    h1,h2,h3,h4,h5,h6{
+        font-family: "Aniron";  
+        font-size: 1.25rem;
+    }
+
+    .nav-pills .nav-link.active{
+        font-size: 1.5rem;
+    }
+
+}
+
+
+/* Fellows img transition */
+
+.box-overimg{
+
+    margin: 50px 10px 10px 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(225,222,222, 0.5);
+    border-radius: 20px;
+    font-size: 2.5rem;
+}
+.gold{
+    color: gold;
+}
+.name{
+    color:white;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 40%;
+}
+
+.grayback:hover .name{
+    margin-top: 90%;
+}
+
+.grayback:hover .box-overimg{
+    display: none;
+    transition: 500ms;
+}
+
+.grayback:hover{
+    background-color:  rgba(225,222,222, 0.1);
+}
+.grayback{
+    background-color: rgba(225,222,222, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+/* Fellows Nav Pills */
+
+.nav-pills a{
+    color: black;
+}
+ .nav-pills .teng{
+     display: none;
+ }
+
+ .nav-pills .active .teng{
+     display: inline-block;
+     color: orangered;
+     text-decoration: underline;
+ }
+
+ .nav-pills .nav-link.active{
+     background-color: transparent;
+     color: orangered;
+ }
+ li .active{
+     background-color: transparent;
+ }
+
+
+
+
+
+
