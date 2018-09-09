@@ -28,6 +28,10 @@ body{
     font-size: 1rem;
 }
 
+p{
+    font-size: 1.25rem;
+}
+
 .teng{
     font-family: "Tengwar";
     font-style: italic;
@@ -72,6 +76,10 @@ main{
     font-family: "Aniron";
 }
 
+.navbar-dark .navbar-brand{
+    max-width: 200px;
+}
+
 .nav-pills .nav-item{
     font-size: 2rem;
 }
@@ -109,22 +117,35 @@ main{
         font-size: 1.5rem;
     }
 
+    .box-overimg{
+        font-size: 1em;
+    }
+
 }
 
 
 /* Fellows img transition */
+.card{
+    background-color: black;
+    color: gray;
+}
+
+.card p{
+    font-size: 2em;
+}
 
 .box-overimg{
 
     margin: 50px 10px 10px 10px;
     padding: 5px;
     text-align: center;
-    background-color: rgba(225,222,222, 0.5);
+    background-color: rgba(48, 46, 46, 0.5);
     border-radius: 20px;
-    font-size: 2.5rem;
+    font-size: 2em;
+    color: black;
 }
 .gold{
-    color: gold;
+    color:orangered;
 }
 .name{
     color:white;
